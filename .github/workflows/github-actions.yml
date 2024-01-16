@@ -1,6 +1,9 @@
+#on:
+#  schedule:    
+#    - cron:  '0 13 * * *'
+
 on:
-  schedule:    
-    - cron:  '0 13 * * *'
+  workflow_dispatch:
 
 
 env:
